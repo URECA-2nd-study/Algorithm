@@ -8,8 +8,8 @@ public class Week1_4963 {
 	static int W, H;
 	static int[] dx = {0, 1, 0, -1, 1, -1, -1, 1};  // 상하좌우 + 대각선
 	static int[] dy = {1, 0, -1, 0, 1, -1, 1, -1};
-	static boolean[][] visited;
 	static int[][] map;
+	static boolean[][] visited;
 
 	public static void main(String[] args) throws Exception {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
