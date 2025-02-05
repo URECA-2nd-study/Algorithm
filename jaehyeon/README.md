@@ -29,3 +29,6 @@
 - 브랜치 변경 `git chekcout {브랜치 명}`
 - commit `[feat] No.문제번호 || [feat] week1`
 - pullRequest `{템플릿에 맞춰서 작성}`
+# Link
+
+[Notion](https://www.notion.so/190b424abfc9800e9930da3f9b9a5629)
