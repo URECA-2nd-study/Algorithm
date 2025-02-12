@@ -3,7 +3,7 @@ package jiyeon.week1;
 import java.util.*;
 import java.io.*;
 
-public class Main {
+public class 토마토 {
 
 	//pseudo code 
 	//1. 초기 조건 확인

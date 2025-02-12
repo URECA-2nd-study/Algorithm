@@ -4,7 +4,7 @@ import java.util.*;
 import java.io.*;
 
 
-public class Main {
+public class 빙산 {
 	
 	//pseudo code
 	//0. n, m 입력 받고 -> 빙산 배열 저장 

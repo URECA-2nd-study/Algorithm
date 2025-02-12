@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
-public class BaekJoon_7569 {
+public class Week1_7569 {
     static int row, col, height, totalTomato, curTomato = 0;
     static int[][][] map;
     static int[][] dir = {{0, 0, 1}, {0, 0, -1}, {0, 1, 0}, {0, -1, 0}, {1, 0, 0}, {-1, 0, 0}};

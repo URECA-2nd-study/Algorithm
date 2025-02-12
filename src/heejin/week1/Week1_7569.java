@@ -3,7 +3,7 @@ package heejin.week1;
 import java.io.*;
 import java.util.*;
 
-public class Main {
+public class Week1_7569 {
     static int m, n, h, day = 0, zeroCnt;
     static int[][][] board;
     static int[] dx = {0, 0, 0, 0, -1, 1};
