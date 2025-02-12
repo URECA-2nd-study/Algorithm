@@ -3,7 +3,7 @@ package heejin.week1;
 import java.util.*;
 import java.io.*;
 
-public class Main {
+public class Week1_2573 {
     static int[][] board;
     static int[][] zeroCnt;
     static boolean[][] visited;

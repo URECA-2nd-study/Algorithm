@@ -3,7 +3,7 @@ package kijung.week1;
 import java.io.*;
 import java.util.*;
 
-public class BaekJoon_4963 {
+public class Week1_4963 {
 
     static int row, col;
     static int[][] map, dir = {{-1, 0}, {-1, 1}, {0, 1}, {1, 1}, {1, 0}, {1, -1}, {0, -1}, {-1, -1}}; // 방항배열

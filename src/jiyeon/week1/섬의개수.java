@@ -3,7 +3,7 @@ package jiyeon.week1;
 import java.util.*;
 import java.io.*;
 
-public class Main {
+public class 섬의개수 {
 	
 	//pseudo code 
 	//1. w, h 입력 받기 
