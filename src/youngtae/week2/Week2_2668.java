@@ -10,7 +10,6 @@ public class Week2_2668 {
 	static boolean flag;
 	static ArrayList<ArrayList<Integer>> list = new ArrayList<>();
 	static boolean[] visited;
-	static int[] tmp;
 	static List<Integer> answers = new ArrayList<>();
 
 	public static void main(String[] args) throws Exception {
@@ -23,8 +22,6 @@ public class Week2_2668 {
 		 */
 
 		N = Integer.parseInt(br.readLine());
-		visited = new boolean[N+1];
-		tmp = new int[N+1];
 
 		for(int i = 0; i <= N; i++) {       //인접 리스트
 			list.add(new ArrayList<>());
