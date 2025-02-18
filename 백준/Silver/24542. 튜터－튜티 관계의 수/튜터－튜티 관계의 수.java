@@ -32,10 +32,6 @@ public class Main {
         }
 
         for (int i = 1; i <= N; i++) {
-            parent[i] = find(i);
-        }
-
-        for (int i = 1; i <= N; i++) {
             int root = find(i);
             map.put(root, map.getOrDefault(root, 0) + 1);
         }
