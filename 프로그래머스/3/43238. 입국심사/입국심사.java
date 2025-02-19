@@ -4,7 +4,7 @@ class Solution {
     public long solution(int n, int[] times) {
         long answer = 0;
         long left = 1;
-        long right = (long) Arrays.stream(times).max().getAsInt() * n;
+        long right = (long) Arrays.stream(times).max().getAsInt() * n + 1;
         
         while(left < right) {
             long mid = (left + right) / 2;
