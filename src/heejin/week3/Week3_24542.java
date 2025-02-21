@@ -1,7 +1,9 @@
+package heejin.week3;
+
 import java.io.*;
 import java.util.*;
 
-class Main {
+class Week3_24542 {
     static int N, M;
     static final int mod = 1000000007;
     static int[] parent;

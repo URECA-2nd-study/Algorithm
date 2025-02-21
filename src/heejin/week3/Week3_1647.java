@@ -1,7 +1,9 @@
+package heejin.week3;
+
 import java.io.*;
 import java.util.*;
 
-class Main {
+class Week3_1647 {
     static int N, M;
     static int[] parent;
     static int[][] cost;
