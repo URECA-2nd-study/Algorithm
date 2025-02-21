@@ -1,3 +1,5 @@
+package heejin.week2;
+
 import java.util.*;
 import java.io.*;
 
@@ -16,7 +18,7 @@ import java.io.*;
  * (3) (N-1개 중 최대 포도주 양)
  */
 
-public class Main {
+public class Week2_2156 {
 
     static int N;
     static Integer[] dp;
