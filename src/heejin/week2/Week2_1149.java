@@ -1,3 +1,5 @@
+package heejin.week2;
+
 import java.util.*;
 import java.io.*;
 
@@ -19,7 +21,7 @@ import java.io.*;
  * (3) N번 집의 색이 파랑이면, 이전 집은 초록 or 빨강
  */
 
-public class Main {
+public class Week2_1149 {
 
     static int N;
     static int[][] dp;

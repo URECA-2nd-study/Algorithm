@@ -1,3 +1,5 @@
+package heejin.week2;
+
 import java.io.*;
 import java.util.*;
 
@@ -15,7 +17,7 @@ import java.util.*;
  * (2) j >= (i번 물건 무게): (i번 물건을 가방에 안 넣는 경우), (i번 물건을 가방에 넣는 경우) 중 최대 가치를 선택
  */
 
-public class Main {
+public class Week2_12865 {
     static int N, K;
     static Integer[][] dp; // 최대 무게가 j일 때, i번째 물건까지의 가치 최대 합
     static int[][] item;
