@@ -1,3 +1,5 @@
+package heejin.week2;
+
 import java.io.*;
 import java.util.*;
 
@@ -22,7 +24,7 @@ import java.util.*;
  * 5->7->6->7(X) 답 불가능 -> 시작점이 아니며 전에 방문했던 곳으로 돌아오면, 그냥 탐색 종료
  */
 
-public class Main {
+public class Week2_2668 {
     static int N;
     static List<Integer> answer = new ArrayList<>();
     static int[] arr;
