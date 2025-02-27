@@ -30,7 +30,7 @@ public class Week4_7795 {
             }
             Arrays.sort(B);
 
-            // 이분 탐색을 이용하여 A[i]보다 커지는 시점 찾기
+            // 이분 탐색을 이용하여 A[i]보다 크거나 같아지는 시점 찾기
             for (int i = 0; i < N; i++) {
                 int left = 0;
                 int right = B.length;
