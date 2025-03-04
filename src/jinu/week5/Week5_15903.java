@@ -40,5 +40,5 @@ public class Week5_15903 {
 
         System.out.println(sum);
     }
-    }
+
 }
