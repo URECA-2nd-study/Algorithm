@@ -8,6 +8,7 @@ class Week14_214288 {
      * 
      * 각 유형 별로 멘토는 1명씩 있어야 하기 때문에 select 배열에 1씩 먼저 넣어두고
      * 남은 인원들은 완탐으로 select 배열에 배치하였습니다.
+     * sdf
      */
 
     private static int N, K, min;

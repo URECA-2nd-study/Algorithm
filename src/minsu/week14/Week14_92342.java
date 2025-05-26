@@ -16,7 +16,7 @@ class Week14_92342 {
     
     private static void dfs(int depth, int currArrowsCount, int[] ryanArrows) {
         if(depth == 10) {
-            // 1점까지 다 쐈다면
+            // 1점까지 다 쐈다면 d
             // 남은 화살 갯수는 0점에 다 쏜다고 가정.
             ryanArrows[depth] = arrowsCount - currArrowsCount;
             // 둘의 게임 차이 계산
