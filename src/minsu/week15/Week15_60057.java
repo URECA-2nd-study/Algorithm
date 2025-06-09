@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-class Solution {
+class Week15_60057 {
     public int solution(String s) {
         int answer = s.length();
         
@@ -37,6 +37,5 @@ class Solution {
         }
         sb.append(prev);
         return sb.length();
-        
     }
 }
