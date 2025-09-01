@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Main {
+public class Week8_17951 {
 	private static int N, K, score;
 	private static int[] sc;
 
