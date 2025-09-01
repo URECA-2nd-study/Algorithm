@@ -3,7 +3,7 @@ package src.jaehyeon.week16;
 import java.io.*;
 import java.util.*;
 
-public class Week16_2987 {
+public class Week16_2987_1 {
     
     public static class Pos{
 
