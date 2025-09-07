@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Solution {
+public class Week8_32718 {
 	private static int N, K, T;
 	private static int[] arr;
 
