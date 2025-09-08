@@ -36,7 +36,7 @@ public class Week17_QueenAnt {
 
             int mid = (start + end) / 2;
 
-            int previous = -1_000_000_000;;
+            int previous = -1_000_000_000;
 
             int intervalCount = 0;
 
