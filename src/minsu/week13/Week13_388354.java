@@ -50,7 +50,7 @@ public class Week13_388354 {
             if (R == 1) properCount++;
             // P == 1 이면 reverse(역홀짝) 트리로 만들 수 있음
             if (P == 1) reverseCount++;
-        }W
+        }
 
         return new int[]{ properCount, reverseCount };
     }
