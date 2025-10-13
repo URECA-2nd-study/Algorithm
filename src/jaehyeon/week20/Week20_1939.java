@@ -46,7 +46,7 @@ public class Week20_1939 {
 
             if(maxWeight[currentNode.end] > currentNode.weight) continue;
 
-            if(currentNode.end == goal){
+            if(isArrived(currentNode.end)){
 
                 answer = currentNode.weight;
                 return;
@@ -61,12 +61,18 @@ public class Week20_1939 {
                 if(minWeight > maxWeight[nextNode.end]){
 
                     maxWeight[nextNode.end] = minWeight;
+                    
                     q.offer(new Node(nextNode.end, minWeight));
                 }
             }
         }
 
         answer = maxWeight[goal];
+    }
+
+    private static boolean isArrived(int end){
+
+        return end == goal;
     }
 
     private static void init() throws IOException{
